@@ -1,4 +1,4 @@
-const {soma, texto} = require('./01-teste')
+const {soma, texto, multi} = require('./01-teste')
 
 test(
     'testando a função soma', () => {
@@ -12,3 +12,8 @@ test(
     }
 )
 
+test(
+    'testando a função multi', () => {
+        expect(multi(1,2)).toBe(2)
+    }
+)
